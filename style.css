@@ -1,0 +1,33 @@
+
+.board {
+    display: grid;
+    background-color: black;
+    border-color: azure;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 75px;
+    
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(64, 22, 98);
+    border: 2px solid gray;
+    border-color: rgb(64, 22, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+h1 {
+    color: ;
+    text-align: center;
+    margin-top: 50px;
+}
+body{
+    background-color: rgb(64, 22, 98);
+}
